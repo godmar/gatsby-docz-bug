@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "docz": "^2.0.0-rc.35",
+    "gatsby": "^2.15.11",
+    "gatsby-theme-docz": "^2.0.0-rc.35",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "styled-components": "^4.3.2"
+  }
+}
