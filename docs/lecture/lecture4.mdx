@@ -1,0 +1,23 @@
+---
+title: "Test for Bug"
+date: 2019-09-05T14:53:20.798Z"
+menu: MenuEntry1
+---
+import Notice from '../../src/components/Notice'
+
+# heading to avoid https://github.com/doczjs/docz/issues/964
+
+<Notice type={"tip"} title={"Side note"}>
+
+This text uses *markdown*, but the markdown does not arrive at the component.
+
+</Notice> 
+
+Markdown in the *middle* does not work, either. A [link](www.google.com)
+
+<Notice type={"tip"} title={"Tip"}>
+
+The same is _true_ here.
+
+</Notice>
+
